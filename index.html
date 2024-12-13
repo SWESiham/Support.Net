@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selecao</title>
+  <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+  <div class="parent-container">
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="./index.html">Selecao</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p class="carousel-welcome"> Welcome to <span>Selecao</span></p>
+          <p
+            class="carousel-txt">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. 
+            Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <button class="carousel-btn">Read More</button>
+        </div>
+        <div class="carousel-item">
+          <p class="carousel-welcome"> Welcome to <span>Selecao</span></p>
+          <p
+            class="carousel-txt">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. 
+            Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <button class="carousel-btn">Read More</button>
+        </div>
+        <div class="carousel-item">
+          <p class="carousel-welcome"> Welcome to <span>Selecao</span></p>
+          <p
+            class="carousel-txt">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. 
+            Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+          <button class="carousel-btn">Read More</button>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div>
+      <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255,255,255,0.1)" />
+        </g>
+      </svg>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="container-fluid">
+    <div class="sec-2">
+      <div class="box-sec-2">
+        <div class="box con-1">
+          <i class="fa-solid fa-binoculars"></i>
+          <p>Modi sit est dela pireda nest</p>
+        </div>
+        <div class="box con-2">
+          <i class="fa-regular fa-hand-back-fist"></i>
+          <p>Modi sit est dela pireda nest</p>
+        </div>
+        <div class="box con-3">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <p>Modi sit est dela pireda nest</p>
+        </div>
+        <div class="box con-4">
+          <i class="fa-solid fa-signature"></i>
+          <p>Modi sit est dela pireda nest</p>
+        </div>
+      </div>
+      <div class="body-sec-2">
+        <div class="headers-sec-2">
+          <h1>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
+
+          <div class="subs">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae, aspernatur</p>
+            <div class="subh">
+              <i class="fa-solid fa-check-double"></i>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="subh">
+              <i class="fa-solid fa-check-double"></i>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="subh">
+              <i class="fa-solid fa-check-double"></i>
+              <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+        </div>
+        <div class="img">
+          <img src="./img/working-1.jpg" alt="" width="720px" height="500px">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="./img/testimonials/testimonials-1.jpg" class="card-img-top" alt="t1">
+          <div class="card-body">
+            <h5 class="card-title">saul Goodman</h5>
+            <h6 class="card-title">Ceo & Founder</h6>
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+
+            <p class="card-text">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad sunt, iure quam dolores fuga
+              reprehenderit molestiae. Placeat id cumque facere corrupti magni.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="./img/testimonials/testimonials-2.jpg" class="card-img-top" alt="t2">
+          <div class="card-body">
+            <h5 class="card-title">saul Goodman</h5>
+            <h6 class="card-title">Ceo & Founder</h6>
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+
+            <p class="card-text">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad sunt, iure quam dolores fuga
+              reprehenderit molestiae. Placeat id cumque facere corrupti magni.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="./img/testimonials/testimonials-3.jpg" class="card-img-top" alt="t3">
+          <div class="card-body">
+            <h5 class="card-title">saul Goodman</h5>
+            <h6 class="card-title">Ceo & Founder</h6>
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+
+            <p class="card-text">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad sunt, iure quam dolores fuga
+              reprehenderit molestiae. Placeat id cumque facere corrupti magni.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="./img/testimonials/testimonials-4.jpg" class="card-img-top" alt="t4">
+          <div class="card-body">
+            <h5 class="card-title">saul Goodman</h5>
+            <h6 class="card-title">Ceo & Founder</h6>
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+
+            <p class="card-text">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad sunt, iure quam dolores fuga
+              reprehenderit molestiae. Placeat id cumque facere corrupti magni.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <img src="./img/testimonials/testimonials-5.jpg" class="card-img-top" alt="t5">
+          <div class="card-body">
+            <h5 class="card-title">saul Goodman</h5>
+            <h6 class="card-title">Ceo & Founder</h6>
+            <div class="icons">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+
+            <p class="card-text">
+              <i class="fa-solid fa-quote-left"></i>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ad sunt, iure quam dolores fuga
+              reprehenderit molestiae. Placeat id cumque facere corrupti magni.
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+        aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+        aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+          aria-controls="panelsStayOpen-collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+        aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-form-sec">
+    <div class="contactHeader">
+      <div class="sec-ffoorrmm-conatainer">
+      <p>CONTACT</p>
+      <div class="divv"></div>
+      </div>
+      <h1>CONTACT US</h1>
+    </div>
+
+    <div class="sec-form">
+
+
+      <div class="sec-form-details">
+        <div class="d sec-form-d1">
+          <div class="dicon"></div>
+          <i class="fa-solid fa-location-dot"></i>
+          <h5>Address</h5>
+        </div>
+        <div class="inff">
+          <p>A108 Adam Street, New York, NY 535022</p>
+        </div>
+
+
+
+        <div class="d sec-form-d2">
+          <div class="dicon"></div>
+          <i class="fa-solid fa-phone"></i>
+          <h5>Call Us</h5>
+        </div>
+        <div class="inff">
+          <p>+1 5589 55488 55</p>
+        </div>
+
+
+        <div class="d sec-form-d3">
+          <div class="dicon">
+
+          </div>
+          <i class="fa-regular fa-envelope"></i>
+          <h5>Email Us</h5>
+        </div>
+        <div class="inff">
+          <p>info@example.com</p>
+        </div>
+
+
+
+
+
+      </div>
+
+
+      <form class="row g-2">
+        <div class="col-md-6">
+          <input type="text" class="form-control" id="" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" id="" placeholder="Your Email">
+        </div>
+        <div class="col-md-12">
+
+          <input type="text" class="form-control" id="" placeholder="Subject">
+        </div>
+        <div class="col-md-12">
+          <div class="mb-3">
+
+            <textarea class="form-control" name="" id="" rows="3" placeholder="Massege"></textarea>
+          </div>
+
+        </div>
+
+        <button type="submit" class="send-btn">Send Massege</button>
+
+
+      </form>
+    </div>
+  </div>
+
+  
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="c">
+        <h2>Selecao</h2>
+        <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+        </p>
+      </div>
+      <div class="in">
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+      </div>
+
+      <pre>Copyright Selecao All Rights Reserved
+      Designed by <a href="#"><span>BootstrapMade</span></a> Distributed By <a href="#"><span>ThemeWagon</span></a></pre>
+    </div>
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
